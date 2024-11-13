@@ -2,7 +2,7 @@ package Personaddress;
 
 public class Test {
 	public static void main(String[] args) {
-		Address dc1 = new Address("Hoanh bo", " Thon 1", " Phu Van", Phu Ly" Ha Nam");
+		Address dc1 = new Address(" Thon 1", " Phu Van", Phu Ly" Ha Nam");
 		Nhanvien nv1 = new Nhanvien("Trung", dc1, "avas", 'N');
 		System.out.println("Nhan vien 1 " + nv1.toString());
 		Address dc2 = new Address();
