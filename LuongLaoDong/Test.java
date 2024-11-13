@@ -4,12 +4,12 @@ public class Test {
 
 	public class Main {
 		public static void main(String[] args) {
-			LaoDongPhoThong laoDongPhoThong = new LaoDongPhoThong("Nguyen Van A", "Ha Noi", 26);
+			LaoDongPhoThong laoDongPhoThong = new LaoDongPhoThong("Nguyen Van A", "Ha Noi", 20);
 			laoDongPhoThong.inThongTin();
 
 			System.out.println();
 
-			KiSu kiSu = new KiSu("Tran Van B", "Ho Chi Minh", 23, 2.5, 5000000);
+			KiSu kiSu = new KiSu("Nguyen Thi B", "Ha Noi", 24, 2.5, 5000000);
 			kiSu.inThongTin();
 		}
 	}
